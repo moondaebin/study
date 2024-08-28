@@ -16,6 +16,7 @@
     
       <div>
         <button class="btn inquiry" @click="All">고객조회</button>
+        <button class="btn cancle" @click="$emit('CloseNewCus')">취소</button>
       </div>
     </div>
   </template>
